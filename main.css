@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
+body {
+    background-image: url(drumkit-bg.png);
+    overflow: hidden;
+}
+
+.buttons {
+    margin-top: 780px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#snare, #clap, #kick, #ride, #boom, #hihat, #openhat, #tink, #tom {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #88bcc8;
+    padding: 10px 50px;
+    margin: 0 10px;
+    border-radius: 5px;
+    color: #3f3f3f;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#snare-button, #clap-button, #kick-button, #ride-button, #boom-button, #hihat-button,
+#openhat-button, #tink-button, #tom-button {
+    text-decoration: none;
+}
